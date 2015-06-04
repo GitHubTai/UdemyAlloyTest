@@ -37,8 +37,8 @@
 		-->
 		
 		
-		<!-- create a TableView and add data -->
-		<TableView id="table">
+		<!-- create a TableView and add TableViewRow + title -->
+		<TableView id="table" onClick="tableCheck">
 			<TableViewRow title="Apple"/>
 			<TableViewRow title="Bananas"/>
 			<TableViewRow title="Carrots"/>
