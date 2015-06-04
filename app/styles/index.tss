@@ -1,0 +1,49 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#actor": {
+	backgroundColor: "red",
+	top: 100,
+	width: 100,
+	height: 95
+}
+
+
+"#actor2": {
+	backgroundColor: "white",
+	top: 20,
+	width: 20,
+	height: 50
+}
+
+"#image" : {
+	top: 80
+}
+
+"Label": {
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	color: "#999"
+}
+/*
+"#label1": {
+	top: 30,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}*/
+
+"#button1": {
+	top: 80,
+	width: 260,
+	height: 95,
+	backgroundImage: 'images/btn_up.png',
+	backgroundSelectedImage: 'images/btn_down.png'	
+}
+
+"#textField" : {
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	color: '#336699',
+	top: 10, left: 10,
+	width: 250, height: 60
+	
+}

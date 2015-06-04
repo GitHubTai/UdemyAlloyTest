@@ -1,0 +1,50 @@
+<Alloy>
+	<Window class="container">
+		
+		<!-- use Label for text -->
+		<!--
+		<Label id="label1" onClick="doClick">This is a text</Label>
+		-->
+		
+		
+		<!-- nest view inside a view  -->
+		<!--
+		<View id="actor">
+			<View id="actor2"></View>
+		</View>
+		-->
+		
+		
+		<!-- use ImageView + onClick ImageView 	function 		-->
+		<!--
+		<ImageView id="image" onClick="doClick" image="images/envelope.png">
+		</ImageView>	
+		-->
+		
+		<!-- create Button + onCLick function -->
+		<!--
+		<Button id="button1" onClick="buttonClick" title="Click Me"/>
+		-->
+		
+		<!-- create Switch -->
+		<!--
+		<Switch id="basicSwitch" value="true" onChange="outputState"/>
+		-->
+		
+		<!-- create TextField -->
+		<!--
+		<TextField id="textField"/>
+		-->
+		
+		
+		<!-- create a TableView and add data -->
+		<TableView id="table">
+			<TableViewRow title="Apple"/>
+			<TableViewRow title="Bananas"/>
+			<TableViewRow title="Carrots"/>
+			<TableViewRow title="Potatoes"/>
+		</TableView>
+		
+				
+	</Window>
+</Alloy>
