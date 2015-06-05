@@ -37,14 +37,58 @@
 		-->
 		
 		
-		<!-- create a TableView and add TableViewRow + title -->
-		<TableView id="table" onClick="tableCheck">
-			<TableViewRow title="Apple"/>
-			<TableViewRow title="Bananas"/>
-			<TableViewRow title="Carrots"/>
-			<TableViewRow title="Potatoes"/>
-		</TableView>
+		<!-- create a TableView and add TableViewRow + TableViewSection +title -->
 		
-				
+		<!--
+		<TableView id="table" onClick="tableCheck">
+			<TableViewSection headerTitle="Fruit">
+				<TableViewRow title="Apple"/>
+				<TableViewRow title="Bananas"/>
+			</TableViewSection>
+			
+			<TableViewSection headerTitle="Veggies">
+				<TableViewRow title="Carrots"/>
+				<TableViewRow title="Potatoes"/>
+			</TableViewSection>
+		</TableView>
+		-->
+		
+		
+		<!-- create WebView -->
+		<!--
+		<WebView id="webview" url="http://www.kinetic-media.com/jquery"></WebView>
+		-->
+		
+		<!-- scrollView scroll up and down-->
+		<!--
+		<ScrollView id="scrollView" showVerticalScrollIndicator="">
+			<View backgroundColor="blue" borderRadius="10" top="10" height="2000" width="100%"></View>
+		</ScrollView>
+	   -->
+	   
+	   <!-- scrollableView from side2side with PagingControl-->
+	   <!--
+	   <ScrollableView id="scrollableView" showPagingControl="true">
+	   	<View backgroundColor="#123"/>
+	   	<View backgroundColor="#246"/>
+	   	<View backgroundColor="#48b"/>
+	   </ScrollableView>
+	   -->
+	   
+	   
+	   <!-- play audio file -->
+		<!--
+	   <Button id ="buttonAudio" onClick="playAudio">Play Music</Button>
+	
+	  -->
+	   
+	   <!-- play sound in a function BROKEN-->
+	   <!--
+	   <Button onCLick="doClick" title="Play"></Button>
+	   -->
+	   
+	   
+	   <!-- VIDEOPLAYER -->
+	   <VideoPlayer id="videoPlayer" ns="Ti.Media" url="video/Silly_Walks.mp4" autoplay="false"></VideoPlayer>
 	</Window>
 </Alloy>

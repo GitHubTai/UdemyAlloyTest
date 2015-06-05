@@ -1,3 +1,4 @@
+/*
 function doClick(e) {  
     
     alert("Hi Tai!");
@@ -31,6 +32,8 @@ function tableCheck(e) {
 			alert("You clicked Potatoes");
 			break;
 	}
+	
+	*/
 	/*
 	
 	// or via a IF else if structure
@@ -43,7 +46,21 @@ function tableCheck(e) {
 	} else if(e.index == 3) {
 		alert("You clicked Potatoes");
 	}
-	*/
+	
 }
+*/
+/*
+function playAudio(e) {
+var player = Ti.Media.createSound({
+	
+	url:'audio/start_race.mp3'
+	
+});
+player.play();
+}
+*/
+
+
+
 
 $.index.open();

@@ -47,3 +47,22 @@
 	width: 250, height: 60
 	
 }
+
+"#scrollView" : {
+	showHorizontalScrollIndicator: 'false',
+	showVerticalScrollIndicator: 'true',
+	height: '80%',
+	width: '80%'
+	
+}
+
+"#videoPlayer" : {
+	
+	top: 100,
+	width: 400,
+	height: 330,
+	backgroundColor: 'black'
+	
+}
+
+
