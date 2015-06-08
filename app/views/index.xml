@@ -1,5 +1,14 @@
 <Alloy>
 	<Window class="container">
+	
+	<!-- for SWIPE event add onSwipe to WINDOW tag
+	<Window class="container" onSwipe="swipeEvent">
+	-->
+	
+	<!-- TwoFingerTap use alt keyboard on sim -->
+	<!-- 
+	<Window class="container" onTwofingertap="twoFingers">
+	-->
 		
 		<!-- use Label for text -->
 		<!--
@@ -89,6 +98,56 @@
 	   
 	   
 	   <!-- VIDEOPLAYER -->
+	   <!--
 	   <VideoPlayer id="videoPlayer" ns="Ti.Media" url="video/Silly_Walks.mp4" autoplay="false"></VideoPlayer>
+	   -->
+	   
+	   <!-- SWIPE events -->
+	   
+	   
+	   <!-- TABBED BAR -->
+	   <!--
+	   <TabbedBar id="bb1">
+	   	<Labels>
+	   		<Label>One</Label>
+	   		<Label>Two</Label>
+	   		<Label>Three</Label>
+	   	</Labels>
+	   </TabbedBar>
+	   
+	   <-- TOOLBAR iOS top or bottom -->
+	   <!--
+	   	<Toolbar id="toolbar">
+	   		<Items>
+	   			<Button id="send" title="Send" style="Ti.UI.iPhone.SystemButtonStyle.DONE"></Button>
+	   			<FlexSpace/>
+	   			<Button id="camera" systemButton="Ti.UI.iPhone.SystemButton.CAMERA"></Button>
+	   			<FlexSpace/>
+	   			<Button id="cancel" systemButton="Ti.UI.iPhone.SystemButton.CANCEL"></Button>
+	   		</Items>
+	   	</Toolbar>
+	   -->
+	   
+	   <!-- PICKERS -->
+	   <!--
+	   <Picker id="picker">
+	   		<PickerColumn>
+	   			<PickerRow title="Bananas"></PickerRow>
+	   			<PickerRow title="Strawberries"></PickerRow>
+	   			<PickerRow title="Mangos"></PickerRow>
+	   			<PickerRow title="Grapes"></PickerRow>
+	   		</PickerColumn>
+	   		<Column>
+	   			<Row title="Red"/>
+	   			<Row title="Green"/>
+	   			<Row title="Blue"/>
+	   			<Row title="Orange"/>
+	   		</Column>
+	   </Picker>
+	   -->
+	   
+	   <!-- OPEN A NEW WINDOW in ALLOY -->
+	   <Label id="label" onClick="showWin1">I'm window 1</Label>
+	   
 	</Window>
 </Alloy>

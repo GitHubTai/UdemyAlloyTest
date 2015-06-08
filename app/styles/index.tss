@@ -65,4 +65,39 @@
 	
 }
 
+// TabbedBar style
+"#bb1" : {
+	platform : "ios",
+	backGroundColor : "#336699",
+	top : 50,
+	height : 25,
+	width : 200,
+	//style : Titanium.UI.iPhone.SystemButtonStyle.BAR
+}
+
+"#toolbar" : {
+	
+	platform : "ios",
+	bottom : 0,
+	borderTop : "true",
+	borderBottom : "false",
+	barColor : "#000"
+}
+
+"#picker" : {
+	
+	top: 50,
+	selectionIndicator : "true",
+	useSpinner: "true"
+	
+}
+
+"Label" : {
+	
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZE,
+	color: "#000"
+	
+}
+
 

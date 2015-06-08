@@ -60,7 +60,48 @@ player.play();
 }
 */
 
+// e.direction for detecting swipe direction
+function swipeEvent(e) {
+	
+	if(e.direction == 'left') {
+		alert("You swiped left");
+	} else if (e.direction =="right") {
+		alert("You swiped right");
+	} else if (e.direction == "up") {
+		alert("You swiped up");
+	} else if (e.direction == "down") {
+		alert("You swiped down");
+	}
+	
+}
+
+//two Fingertap event
+function twoFingers(e) {
+	alert('Two Fingertap done');
+}
+//SHAKE gesture
+Titanium.Gesture.addEventListener('shake', function(e){
+	alert('Shake it');
+});
 
 
+// gesture ORIENTATION change
+Titanium.Gesture.addEventListener('orientationchange', function(e) {
+	
+	if(e.orientation == 1){
+		alert("PORTRAIT mode");
+	} else if (e.orientation == 2) {
+		alert(" UPSIDE_PORTRAIT mode");
+	} else if (e.orientation == 3) {
+		alert("LANDSCAPE_LEFT mode");
+	} else if (e.orientation == 4) {
+		alert("LANDSCAPE_RIGHT mode");
+	}
+});
 
+// function for index.xml that opens window2
+function showWin1(e) {
+	var w = Alloy.createController('win2').getView();
+	w.open();
+};
 $.index.open();
